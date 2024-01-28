@@ -1,0 +1,94 @@
+/* OCRComponent.css */
+.ocr-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.ocr-header {
+  margin-bottom: 20px;
+}
+
+.ocr-input {
+  padding: 10px;
+  border: 2px solid #3498db; /* Blue border color */
+  border-radius: 5px;
+  background-color: #f5f5f5; /* Light gray background color */
+  color: #333; /* Text color */
+  font-size: 16px;
+}
+
+.ocr-button {
+  padding: 10px 20px;
+  background-color: #2ecc71; /* Green background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.ocr-button:hover {
+  background-color: #27ae60; /* Dark green background color on hover */
+}
+
+.ocr-image {
+  max-width: 100%;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+.extracted-text-container {
+  margin-top: 20px;
+}
+
+.extracted-text {
+  white-space: pre-wrap;
+}
+
+.fill-form-button {
+  margin-top: 10px;
+}
+
+.form {
+  margin-top: 20px;
+}
+/* OCRComponent.css */
+.form {
+  margin-top: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; /* Text color */
+}
+
+.form-input {
+  width: 15%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #3498db; /* Blue border color */
+  border-radius: 5px;
+  background-color: #f5f5f5; /* Light gray background color */
+  color: #333; /* Text color */
+  font-size: 16px;
+}
+
+/* Optional: Style for the fill form button */
+.fill-form-button {
+  padding: 10px 20px;
+  background-color: #2ecc71; /* Green background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.fill-form-button:hover {
+  background-color: #27ae60; /* Dark green background color on hover */
+}
+
